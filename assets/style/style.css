@@ -1,0 +1,407 @@
+/* --------------------------- GLOBAL -------------------------------- */
+
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/futura/futura\ medium\ bt.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato Light";
+  src: url("../fonts/lato/Lato-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../fonts/lato/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../fonts/lato/Lato-Bold.ttf") format("truetype");
+}
+
+/* --------------------------- HEADER -------------------------------- */
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.GLOOKS {
+  width: 96px;
+  height: 51px;
+  font-family: Lato Bold;
+  font-size: 19.1px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.65;
+  letter-spacing: 3px;
+  color: var(--black-dom-1);
+}
+
+.Rectangle-2 {
+  width: 100%;
+  height: 189px;
+  background-color: #fafafa;
+  padding-left: 32px;
+  padding-right: 14px;
+  padding-top: 14px;
+}
+
+.Rectangle-line {
+  width: 1280px;
+  height: 1.5px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.-H4-Heading {
+  width: 100%;
+  height: 25px;
+  font-family: Lato Regular;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  color: #95a0b7;
+}
+.-H4-Heading-text {
+  width: 475.7px;
+  height: 25px;
+  font-family: Lato Regular;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  color: #95a0b7;
+}
+
+.Ellipse-active {
+  width: 18px;
+  height: 18px;
+  background-color: #95a0b7;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.Ellipse-inactive {
+  width: 18px;
+  height: 18px;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.Ellipse-done {
+  width: 18px;
+  height: 18px;
+  background-color: #000000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.WELCOME {
+  width: 76px;
+  height: 21px;
+  font-family: Lato Bold;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  color: #95a0b7;
+}
+
+.LOGIN-DETAILS {
+  width: 112px;
+  height: 20px;
+  font-family: Lato Regular;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.6px;
+  color: #9b9b9d;
+}
+
+.VERIFICATION {
+  width: 103px;
+  height: 20px;
+  font-family: Lato Regular;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.6px;
+  color: #9b9b9d;
+}
+
+.SECURITY {
+  width: 70px;
+  height: 20px;
+  font-family: Lato Regular;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.6px;
+  color: #9b9b9d;
+}
+
+.FINISH {
+  width: 49px;
+  height: 20px;
+  font-family: Lato Regular;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.6px;
+  color: #9b9b9d;
+}
+
+.status {
+  text-align: center;
+  margin-top: -7px;
+}
+/* --------------------------- WELCOME PAGE -------------------------------- */
+
+.welcome-body {
+  padding-top: 55px;
+  width: 476px;
+  margin: auto;
+}
+
+.-H4-Heading-create-account {
+  width: 476px;
+  height: 121px;
+  font-family: Futura;
+  font-size: 38.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.51;
+  letter-spacing: 2.41px;
+  color: var(--text-primary);
+}
+
+.-H4-Heading-description {
+  width: 462px;
+  height: 63px;
+  font-family: Futura;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #7f7f7f;
+  padding-top: 35px;
+  padding-bottom: 100px;
+}
+
+.-Body-2-Normal {
+  width: 270px;
+  height: 21px;
+  font-family: Futura;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.49;
+  letter-spacing: normal;
+  color: var(--ui-grey-01);
+}
+
+.Button-Base {
+  margin-top: 25px;
+  margin-bottom: 24px;
+  width: 152px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #95a0b7;
+  border: none;
+}
+
+.Button-Base-prev {
+  margin-top: 25px;
+  margin-bottom: 24px;
+  width: 152px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.-Body-2-Bold {
+  width: 136px;
+  height: 13.7px;
+  font-family: Lato Bold;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+}
+
+.-Body-2-Bold-prev {
+  width: 136px;
+  height: 13.7px;
+  font-family: Lato Bold;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  color: #95a0b7;
+}
+
+.Already-have-an-account {
+  width: 168px;
+  height: 21px;
+  font-family: Futura;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.49;
+  letter-spacing: normal;
+  color: #58595b;
+}
+
+.Sign-in {
+  width: 44px;
+  height: 21px;
+  font-family: Futura;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.49;
+  letter-spacing: normal;
+  color: #dadada;
+}
+
+/* --------------------------- LOGIN DETAILS PAGE -------------------------------- */
+
+.form-data {
+  margin-top: 50px;
+  width: 328px;
+}
+
+/* --------------------------- VERIFICATION PAGE -------------------------------- */
+
+.Rectangle {
+  width: 441px;
+  height: 480px;
+  border-radius: 4px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin: auto;
+  padding: 40px;
+}
+
+.-num {
+  width: 185px;
+  height: 36px;
+  font-family: Lato Bold;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.6px;
+  color: black;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 27px;
+}
+
+.H6-Headline-verification {
+  width: 338px;
+  height: 64px;
+  font-family: Lato Bold;
+  font-size: 29px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: 1.7px;
+  color: black;
+}
+
+.Vector {
+  color: #9b9b9d;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 31px;
+}
+
+.resend {
+  width: 336px;
+  height: 21px;
+  font-family: Futura;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.49;
+  letter-spacing: normal;
+  color: #dadada;
+}
+
+/* --------------------------- SECURITY PAGE -------------------------------- */
+
+.Choose-3-questions-that-only-you-could-answer {
+  width: 382px;
+  height: 26px;
+  font-family: Futura;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.49;
+  letter-spacing: normal;
+  color: #58595b;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Security-questions {
+  width: 478px;
+  height: 58px;
+  font-family: Futura;
+  font-size: 38.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.51;
+  letter-spacing: 2.41px;
+  color: var(--text-primary);
+}
+
+/* --------------------------- FINISH PAGE -------------------------------- */
+
+.-H4-Heading-check {
+  width: 327px;
+  height: 63px;
+  font-family: Futura;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #7f7f7f;
+  margin-top: 38px;
+}
