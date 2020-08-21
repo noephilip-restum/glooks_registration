@@ -116,6 +116,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.6px;
   color: #95a0b7;
+  padding-top: 25px;
+  margin-left: -23px;
 }
 
 .LOGIN-DETAILS {
@@ -129,6 +131,8 @@ body {
   line-height: 1.43;
   letter-spacing: 0.6px;
   color: #9b9b9d;
+  padding-top: 25px;
+  margin-left: -40px;
 }
 
 .VERIFICATION {
@@ -142,6 +146,8 @@ body {
   line-height: 1.43;
   letter-spacing: 0.6px;
   color: #9b9b9d;
+  padding-top: 25px;
+  margin-left: -35px;
 }
 
 .SECURITY {
@@ -155,6 +161,8 @@ body {
   line-height: 1.43;
   letter-spacing: 0.6px;
   color: #9b9b9d;
+  padding-top: 25px;
+  margin-left: -20px;
 }
 
 .FINISH {
@@ -168,6 +176,8 @@ body {
   line-height: 1.43;
   letter-spacing: 0.6px;
   color: #9b9b9d;
+  padding-top: 25px;
+  margin-left: -15px;
 }
 
 .status {
